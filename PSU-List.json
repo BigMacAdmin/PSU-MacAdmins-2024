@@ -1,0 +1,19 @@
+{
+    "title": "ACN Virtual Meetup 2024 2024",
+    "message": "Welcome to the Apple Consultants Network Virtual Meetup! Please give us a little information about yourself.",
+    "icon": "SSC.png",
+    "overlayicon": "SF=square.and.arrow.up",
+    "ontop": true,
+    "moveable": true,
+    "height": 540,
+    "width": 1080,
+    "button1text": "Please Wait",
+    "button1disabled": true,
+    "infobox": "infobox.md",
+    "progress": 100,
+    "listitem" : [
+        {"title" : "Verifying Information", "icon" : "SF=checkmark.circle.fill,color=green", "status" : "wait", "subtitle": "Thank you for submitting."},
+        {"title" : "Uploading Data", "icon" : "SF=arrow.up.doc,color=purple", "status" : "wait", "subtitle": "This may take some time depending on your internet connection.", "progress": 40},
+        {"title" : "Processing Response", "icon" : "SF=gearshape.2,color=blue", "status" : "wait", "subtitle": "Please stand by while we process your submission."}
+    ]
+}

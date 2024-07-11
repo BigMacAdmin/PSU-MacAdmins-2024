@@ -1,0 +1,33 @@
+{
+    "title": "PSU Mac Admins 2024",
+    "message": "Welcome to PSU Mac Admins 2024! Please give us a little information about yourself.",
+    "icon": "2024 MacAdmins Logo-Circle-Blue.png",
+    "overlayicon": "SF=pencil.and.list.clipboard",
+    "ontop": true,
+    "moveable": true,
+    "height": 460,
+    "button1text": "Submit",
+    "button2text": "Maybe Later...",
+    "infobutton": true,
+    "infobox": "infobox.md",
+    "vieworder": "textfield,radiobutton,checkbox",
+    "textfield" : [
+        { "title" : "Full Name","required" : true },
+        { "title" : "Email","required" : true },
+        { "title" : "Slack Handle","required" : false }
+    ],
+    "checkbox": [
+        {
+            "label": "May we contact you to ask about your experience?",
+            "checked": true,
+            "disabled": false
+        },
+    ],
+    "checkboxstyle": {
+        "style": "switch",
+        "size": "regular"
+    },
+    "selectitems" : [
+        {"title" : "I am a:", "values" : ["Attendee","Speaker"], "style" : "radio"}
+    ]
+}
