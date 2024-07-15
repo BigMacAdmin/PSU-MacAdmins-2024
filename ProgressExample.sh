@@ -2,7 +2,7 @@
 #set -x
 # ProgressExample2.sh by: Trevor Sysock
 
-dialogCommandFile=$(mktemp /var/tmp/Example.XXXXX)
+dialogCommandFile="/dev/null"
 
 function dialog_command(){
     # $1 is the command we want to send
@@ -23,9 +23,15 @@ function dialog_command(){
 sleep .5
 
 dialog_command "progresstext: Downloading installer" 
+sleep 3
 dialog_command "progress: increment"
+sleep 3
 dialog_command "progresstext: Verifying package" 
+sleep 3
 dialog_command "progresstext: Installing" 
+sleep 3
 dialog_command "progresstext: Cleaning up" 
+sleep 3
 dialog_command "progresstext: Thank You!" 
+sleep 3
 dialog_command "quit:"
